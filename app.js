@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     // Устанавливаем заголовок ответа
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     // Отправляем текст
-    res.end('Hello, World!\n');
+    res.end('Hi there! This an example of test task for HandyWeb:)\n');
 });
 
 // Сервер слушает на порту 3000
